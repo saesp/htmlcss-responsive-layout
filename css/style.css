@@ -30,12 +30,25 @@ header{
     list-style-type: none;
 }
 
+.ul-header li{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
 .ul-header a{
     text-decoration: none;
     color: white;
-    padding-left: 15px;
 }
-
+.button-white{
+    background-color: white;
+    border: 0ch;
+    border-radius: 10px;
+    padding: 5px 7.5px;
+}
+.button-white a{
+    color: black;
+    text-align: center;
+}
 .header-mobile{
     display: none;
 }
