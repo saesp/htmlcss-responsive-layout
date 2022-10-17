@@ -1,0 +1,45 @@
+/* tablet version */
+@media screen and (max-width: 780px) {
+    .container{
+        width: 95%;
+    }
+    .header-pc{
+        display: none;
+    }
+
+    .header-mobile{
+        display: block;
+    }
+    .header-mobile a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .container-sec2{
+        display: block;
+        width: 95%;
+    }
+
+    .main-sec4{
+        height: 500px;
+    }
+    .container-sec4{
+        height: 500px;
+    }
+    .container-sec4 .card{
+        width: calc(100% / 2 - 20px);
+    }
+
+    .container-sec5{
+        height: 250px;
+        width: 90%;
+    }
+    
+    .container-sec6{
+        width: 70%;
+    }
+
+    .container-footer{
+        width:70%;
+    }
+}

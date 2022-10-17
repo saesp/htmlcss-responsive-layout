@@ -5,7 +5,7 @@
 }
 
 header{
-    height: 75px;
+    height: 60px;
     width: 100%;
     position: fixed;
     background-color: blue;
@@ -18,7 +18,7 @@ header{
 }
 
 .container.header{
-    height: 75px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ header{
 
 /* Main */
 main{
-    margin-top: 75px;
+    margin-top: 60px;
 }
 
 /* section 1 */
@@ -59,13 +59,14 @@ main{
 
 .container-sec1 .card{
     padding: 50px;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     background-color: aqua;
-    border: 1px solid black;
+    margin: 10px;
+    border-radius: 7px;
 }
 
 .container-sec1 .card-big{
-    width: calc( (100% / 3) * 2);
+    width: calc( (100% / 3) * 2 - 20px);
 }
 
 /* section 2 */
@@ -114,13 +115,58 @@ main{
 .container-sec4{
     display: flex;
     flex-wrap: wrap;
-
+    height: 300px;
+    align-items: center;
 }
 .container-sec4 .card{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     background-color: white;
+    margin: 10px;
     border: 1px solid black;
+    padding: 50px;
 }
 
 
+/* section 5 */
+.main-sec5{
+    width: 100%;
+    background-color: white;
+    height: 300px;
+}
 
+.container-sec5{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 70%;
+    margin: auto;
+}
+.container-sec5 div{
+    margin: 0 20px;
+}
+
+
+/* section 6 */
+.main-sec6{
+    width: 100%;
+    background-color: violet;
+    height: 300px;
+}
+
+.container-sec6{
+    width: 30%;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+.container-footer{
+    width: 30%;
+    text-align: center;
+    color: white;
+}
