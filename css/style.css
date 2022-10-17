@@ -126,7 +126,7 @@ main{
     padding: 50px;
 }
 
-
+  
 /* section 5 */
 .main-sec5{
     width: 100%;
@@ -139,7 +139,7 @@ main{
     align-items: center;
     height: 250px;
     width: 70%;
-    margin: auto;
+    margin: 20px;
 }
 .container-sec5 div{
     margin: 0 20px;
