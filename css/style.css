@@ -64,6 +64,7 @@ main{
 }
 
 .container-sec1{
+    width: calc(80% + 20px);
     padding-top: 30px;
     padding-bottom: 60px;
     display: flex;
@@ -76,11 +77,13 @@ main{
     background-color: aqua;
     margin: 10px;
     border-radius: 7px;
+    text-align: center;
 }
 
 .container-sec1 .card-big{
     width: calc( (100% / 3) * 2 - 20px);
     display: flex;
+    text-align: left;
 }
 .card-big img{
     width: 200px;
@@ -105,6 +108,7 @@ main{
 }
 .container-sec2 .block1{
     width: 250px;
+    color: white;
 }
 .container-sec2 .block2{
     width: 250px;
@@ -182,9 +186,6 @@ main{
 }
 .container-sec5 div{
     margin: 0 20px;
-}
-.text-sec5{
-    width: 600px;
 }
 .text-sec5 p{
     padding: 20px 0;
