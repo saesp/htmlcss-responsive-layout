@@ -48,7 +48,6 @@ header{
 }
 .button-white a{
     color: black;
-    text-align: center;
 }
 .header-mobile{
     display: none;
@@ -71,7 +70,9 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
-
+.container-sec1 h3{
+    color: #0084fd;
+}
 .container-sec1 .card{
     padding: 25px;
     width: calc(100% / 3 - 20px);
@@ -89,7 +90,17 @@ main{
 .card-big img{
     width: 200px;
 }
-
+.button-blue{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-color: #0084fd;
+    border: 0;
+}
+.button-blue a{
+    color: white;
+    text-decoration: none;
+}
 /* section 2 */
 .main-sec2{
     background-color: #9593e6;
@@ -105,8 +116,11 @@ main{
     padding: 30px 0;
     position: relative;
 }
-.container-sec2 img{
-    width: 200px;
+.block1 img{
+    width: 250px;
+}
+.block2 img{
+    width: 150px;
 }
 .container-sec2 .block1{
     width: 250px;
@@ -119,7 +133,7 @@ main{
 .container-sec2 .block2{
     width: 250px;
     background-color: white;
-    padding: 25px;
+    padding: 15px 25px;
     border-radius: 10%;
     text-align: center;
 }
@@ -134,6 +148,12 @@ main{
 }
 .container-sec3 .title{
     margin-bottom: 40px;
+    text-align: center;
+}
+.container-sec3 h2{
+    color: #9593e6;
+    font-size: 25px;
+    margin: 20px 0;
 }
 .phrase{
     display: flex;
@@ -141,15 +161,17 @@ main{
     background-color:#9593e6;
     border-radius: 5%;
     margin-bottom: 20px;
+    color: white;
     padding: 20px;
 }
 .phrase img{
     width: 150px;
     border-radius: 100%;
 }
-.container-sec3 .title{
-    text-align: center;
+.phrase .text{
+    margin-left: 35px;
 }
+
 
 /* section 4 */
 .main-sec4{
@@ -161,7 +183,7 @@ main{
 .main-sec4 h1{
     text-align: center;
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
 .container-sec4{
@@ -202,12 +224,22 @@ main{
 .container-sec5 div{
     margin: 0 20px;
 }
+.text-sec5 h2{
+    color: #9593e6;
+    font-size: 30px;
+}
 .text-sec5 p{
     padding: 20px 0;
 }
 .img-sec5 img{
     width: 175px;
     border-radius: 100%;
+}
+
+.img-sec5 p{
+    color: #9593e6;
+    text-align: left;
+    margin-top: 15px;
 }
 .img-sec5{
     width: 200px;
