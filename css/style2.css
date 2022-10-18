@@ -23,8 +23,13 @@
         display: flex;
         flex-direction: column;
     }
-
-
+    .button-blue{
+        margin-bottom: 20px;
+        padding: 8px 40px;
+    }
+    
+    
+    
     .container-sec2{
         padding: 80px 0 50px;
     }
